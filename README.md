@@ -47,9 +47,10 @@ python driver.py
 streamlit run app.py
 ```
 
-### Run Docker containter
+### Alternate: run Docker container
 
-The docker image is located at this location:
+Make sure Docker is installed on your system. 
+For reference, the docker image is located at this location:
 
 ```
 https://hub.docker.com/repository/docker/tushar77777/portfolio/tags
@@ -58,7 +59,7 @@ https://hub.docker.com/repository/docker/tushar77777/portfolio/tags
 Pull docker image and run a container
 
 ```
-docker pull tushar77777/portfolio:latest
+docker pull tushar77777/portfolio
 
 docker run -p 8501:8501 tushar77777/portfolio
 ```
