@@ -49,8 +49,7 @@ streamlit run app.py
 
 ### Alternate: run Docker container
 
-Make sure Docker is installed on your system. 
-For reference, the docker image is located at this location:
+Make sure docker is installed on your system. For reference, the docker image is located at this location:
 
 ```
 https://hub.docker.com/repository/docker/tushar77777/portfolio/tags
